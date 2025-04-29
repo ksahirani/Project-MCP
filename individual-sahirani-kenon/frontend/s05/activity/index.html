@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HTML Tables and Forms Activity</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Zuitt IT Solutions</h1>
+		</header>
+		<main>
+			<section>
+				<h2>Products Offered</h2>
+
+				<table border = "1">
+					<thead>
+						<tr>
+							<th>Package</th>
+							<th>Price</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+
+					<tbody>
+							<tr>
+								<td>Basic</td>
+								<td>₱500.00</td>
+								<td>Package includes a fully functional website with desired specifications</td>
+							</tr>
+							<tr>
+								<td>Premium</td>
+								<td>₱1000.00</td>
+								<td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+							</tr>
+							<tr>
+								<td colspan="3" align="center"><strong>Additional features after initial project in inclusive of charges</strong></td>
+							</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+					<h2>Contact Form</h2>
+					<form>
+						<label for="first_name">FirstName:</label><br/>
+						<input type="text" name="first_name" required id="first_name" autocomplete="first_name"><br/>
+						<label for="last_name">LastName:</label><br/>
+						<input type="text" name="last_name" required id="last_name" autocomplete="last_name"><br/>
+						<label for="email">Email:</label><br/>
+						<input type="email" name="email" required id="email" autocomplete="email"><br/>
+						<label for="contact">Contact Number:</label><br/>
+						<input type="number" style="width: 15.5%;" name="contact" required id="contact" min="11" max="100" autocomplete="contact"><br/>
+
+						<label for="service_type">Service Type:</label><br/>
+						<select name="service_type" id="service_type">
+							<option value="1">Front End Programming</option>
+							<option value="2">Back End Programming</option>
+							<option value="3">Full Stack End Programming</option>
+						</select><br/>
+
+						<label>Preferred Contact:</label><br/>
+						<input type="checkbox" name="contact1" id="contact1" value="email">
+						<label for="email">Email</label><br/>
+						<input type="checkbox" name="contact2" id="contact2" value="phone">
+						<label for="phone">Phone</label><br/>
+
+						<label>Package:</label><br/>
+						<input type="radio" name="package" id="package-type1" value="basic">
+						<label for="package-type1">Basic</label><br/>
+						<input type="radio" name="package" id="package-type2" value="premium">
+						<label for="package-type2">Premium</label><br/>
+
+						<label for="message">Message:</label><br/>
+						<textarea name="message" rows="5" id="message"></textarea><br/>
+
+						<button type="submit">Send Inquiry</button><br/>
+						<button type="reset">Reset</button>
+
+					</form>
+			</section>
+		</main>
+	</body>
+</html>

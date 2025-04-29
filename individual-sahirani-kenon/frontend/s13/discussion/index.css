@@ -1,0 +1,89 @@
+/*CSS Reset rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*float property*/
+/*CSS float property allows eleements to be positioned horizontally within their parent element. When an elment is floated, it is removed from the normal flow of the document and postioned to the left or right of its container.*/
+.img-float{
+	width: 250px;
+	height: 250px;
+/*none	*/
+	float: left;
+}
+
+/*#p-img{
+	float: none;
+}*/
+
+.parent-element{
+	background-color: skyblue;
+	padding: 10px;
+
+	
+	height: 100vh;
+}
+
+.child-one{
+	background-color: gray;
+	padding: 10px;
+}
+
+/*relative remain in the normal flow of the document. But, unlike static elements, the left, right, top bottom and z-index properties affect the postion of the element.*/
+
+/*Absolute are positined relative to their parent elements. In this case, the element is removed from the normal doument flow. The other elements will behave as if that element is not in the document.*/
+
+/*fixed position elements are similar to absolutely positioned elements. They are also removed from the normal flow of the document. But unlike absolutely positioned elements. They are always positioned relative to the element.*/
+
+/*sticky is a mix of relative and fixed. ijt acts like a relatively positioned element until a certain scroll point and the it acts like fixed element*/
+.child-two{
+	background-color: yellow;
+	padding: 10px;
+
+	position: sticky;
+	right: 10px;
+	top: 20px;
+}
+
+html{
+	height: 800vh;
+}
+
+.child-three{
+	background-color: gray;
+	padding: 10px;
+}
+
+.container{
+	position: relative;
+}
+
+.black-box{
+	border: 2px solid black;
+	height: 100px;
+	margin: 30px;
+	position: relative;
+	z-index: 2;
+}
+
+.gray-box{
+	background-color: lightgray;
+	height: 60px;
+	width: 70%;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	z-index: 10000;
+}
+
+.green-box{
+	background-color: lightgreen;
+	width: 35%;
+	height: 100px;
+	left: 270px;
+	top: -15px;
+	position: absolute;
+	z-index: 1;
+}

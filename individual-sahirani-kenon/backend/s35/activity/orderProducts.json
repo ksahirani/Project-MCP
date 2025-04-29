@@ -1,0 +1,27 @@
+[
+    {
+      "_id": "662e123456789abcdef12400",
+      "orderId": "662e123456789abcdef12350",
+      "productId": "662e123456789abcdef12341",
+      "quantity": 120,
+      "price": 23,
+      "subtotal": 2760
+    },
+    {
+      "_id": "662e123456789abcdef12401",
+      "orderId": "662e123456789abcdef12351",
+      "productId": "662e123456789abcdef12340",
+      "quantity": 120,
+      "price": 23,
+      "subtotal": 2760
+    },
+    {
+      "_id": "662e123456789abcdef12402",
+      "orderId": "662e123456789abcdef12352",
+      "productId": "662e123456789abcdef12342",
+      "quantity": 120,
+      "price": 23,
+      "subtotal": 2760
+    }
+  ]
+  

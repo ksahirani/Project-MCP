@@ -1,0 +1,24 @@
+[
+    {
+      "_id": "662e123456789abcdef12350",
+      "userId": "625f63b1e8a4f7a2b3c9b17d",
+      "datetimeCreated": "2025-04-28T10:00:00Z",
+      "isPaid": true,
+      "total": 2500
+    },
+    {
+      "_id": "662e123456789abcdef12351",
+      "userId": "625f63b1e8a4f7a2b3c9b17e",
+      "datetimeCreated": "2025-04-28T11:00:00Z",
+      "isPaid": true,
+      "total": 3000
+    },
+    {
+      "_id": "662e123456789abcdef12352",
+      "userId": "5625f63b1e8a4f7a2b3c9b17f",
+      "datetimeCreated": "2025-04-28T12:00:00Z",
+      "isPaid": true,
+      "total": 5000
+    }
+  ]
+  

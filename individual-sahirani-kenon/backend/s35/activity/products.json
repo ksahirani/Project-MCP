@@ -1,0 +1,30 @@
+[
+    {
+      "_id": "662e123456789abcdef12340",
+      "name": "Daily Planner",
+      "description": "Is designed to empower you to take control of your day and achieve your goals with confidence.",
+      "price": 19.99,
+      "stocks": 50,
+      "isActive": true,
+      "sku": "DP-001"
+    },
+    {
+      "_id": "662e123456789abcdef12341",
+      "name": "Notepads",
+      "description": "Stay organized, inspired, and productive with our notepad.",
+      "price": 9.99,
+      "stocks": 100,
+      "isActive": true,
+      "sku": "NP-001"
+    },
+    {
+      "_id": "662e123456789abcdef12342",
+      "name": "Notebooks",
+      "description": "Whether you are jotting down notes, planning your day, or getting creative with ideas.",
+      "price": 14.99,
+      "stocks": 75,
+      "isActive": true,
+      "sku": "NB-001"
+    }
+]
+  

@@ -1,0 +1,30 @@
+[
+    {
+      "_id": "625f63b1e8a4f7a2b3c9b17d",
+      "firstName": "Kenon",
+      "lastName": "Sahirani",
+      "email": "kenonsahirani07@gmail.com",
+      "password": "hashed_password_881",
+      "isAdmin": true,
+      "mobileNumber": "+1987654321"
+    },
+    {
+      "_id": "625f63b1e8a4f7a2b3c9b17e",
+      "firstName": "Carlos",
+      "lastName": "Gomez",
+      "email": "carlos.gomez@gmail.com",
+      "password": "hashed_password_789",
+      "isAdmin": false,
+      "mobileNumber": "+3456789012"
+    },
+    {
+      "_id": "625f63b1e8a4f7a2b3c9b17f",
+      "firstName": "Ivana",
+      "lastName": "Alawi",
+      "email": "ivana.alawi@gmail.com",
+      "password": "hashed_password_880",
+      "isAdmin": false,
+      "mobileNumber": "+3256779011"
+    }
+  ]
+  
