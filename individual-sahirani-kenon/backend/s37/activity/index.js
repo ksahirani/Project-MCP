@@ -107,13 +107,8 @@
 
 			// Add only query here. Make sure your query doesn't have a semicolon at the end.
 			db.customers.aggregate([
-                {
-                    $group: {
-                        _id: "$region",                  
-                        customersCount: { $sum: 1 }
-                    }
-                }
-            ])
+                {$group: {_id: "$region", customerCount: { $sum: 1 }}}
+              ])
 		);
 	};
 	
